@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIA Cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+        }
+        body {
+            background: linear-gradient(to right, #1d4350, #a43931);
+            color: #fff;
+        }
+
+        .header {
+            background: #ffffff;  
+            color: #000000;       
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 1rem;
+            
+        }
+
+        nav {
+            display: flex; 
+            background-color: #000000;
+            justify-content: right;
+        }
+
+        nav a {
+            padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+            border-radius: 4px;  /* Rounded corners for hover effect */
+            transition: background-color 0.3s ease;  /* Change transition to background-color */
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+            text-decoration: underline;
+
+        }
+
+        .description {
+            margin: 20px 0;
+            background-color: #fff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .car {
+            background-color: #fff;
+            color: #000000;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .car:hover {
+            transform: translateY(-10px);
+        }
+
+        .car img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p style="text-align: right;"><img src="kia.png" alt="TATA Motors" width="150" style="float: left;"><span><h1>&nbsp;&nbsp;KIA</h1></span></p>
+            
+        </div>
+        <nav>
+            <a href="file:///C:/Users/gitta/OneDrive/Desktop/Work/Ex_11(3C)/index.html">Home</a>
+        </nav>
+
+        <div class="description">
+            <h2>About KIA</h2><br>
+            <p>Founded in 1944 as Kyungsung Precision Industry, Kia Corporation is South Korea's second-largest automobile manufacturer following the Hyundai Motor Company. The company's headquarters are located in Seoul, South Korea.<br><br>Kia began its journey by manufacturing steel tubing and bicycle parts, transitioning to complete bicycles in 1951, motorcycles in 1957, trucks in 1962, and finally cars in 1974. The name 'Kia' originates from the Sino-Korean characters "ki" ("to come out") and "a" (which stands for Asia), roughly translating to "arising from Asia."<br><br>After facing a financial crisis in 1997, Kia was acquired by Hyundai Motor Company in 1998. Since then, Kia has focused on expanding its product line and improving vehicle design, quality, and technology. The brand is known for popular models like the Kia Soul, characterized by its unique design, and the Kia Sorento and Kia Optima.<br><br>Kia's vision encompasses the development of advanced eco-friendly automotive technologies including hybrid, electric, and fuel-cell vehicles. Their commitment to innovation is part of their larger strategy to become a leader in the global automotive industry by providing high-quality, sustainable vehicles.<br><br>The corporation's philosophy "The Power to Surprise" reflects Kia's continuous efforts to surpass customer expectations through continuous automotive innovation.</p>
+        </div>
+
+        <div class="cars">
+            <!-- Please replace the placeholder images with actual images of the cars -->
+            <div class="car">
+                <a href="https://www.kia.com/in/our-vehicles/seltos/showroom.html?utm_source=google&utm_medium=sem&utm_campaign=search_seltos_brand&gclid=Cj0KCQjw-pyqBhDmARIsAKd9XIMPyluyIdwlKXJtlTGwpNephBlc4lQA2OjzTCs7CZrzF_C-M45zhZQaAuR4EALw_wcB"><img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/135051/seltos-exterior-right-front-three-quarter-31.jpeg?isig=0&q=80" alt="Seltos"></a>
+                <div>
+                <br><br>
+                <h3>KIA Seltos</h3>
+                    <p class="center">The KIA Seltos delivers a premium experience with its sharp styling and a comfortable interior.</p>
+                    <br><br><br>
+                    <p><strong>Price:</strong> ₹ 10.90 - 20.30 Lakh*</p>
+                    <p><strong>Engine:</strong> 2.0L 4-cylinder / 1.6L Turbo</p>
+                    <p><strong>Mileage:</strong> Up to 27 mpg combined</p>
+                    <p><strong>Transmission:</strong> IVT, 7-speed DCT</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Carens/10308/1687340273074/front-left-side-47.jpg?tr=w-456" alt="Carens">
+                <div>
+                <br>
+                <h3>KIA Carens</h3>
+                    <p class="center">KIA Carens is a family-oriented MPV with modern features and space for all.</p>
+                    <br><br><br>
+                    <p><strong>Price:</strong> ₹ 10.45 - 19.45 Lakhs*</p>
+                    <p><strong>Engine:</strong>1.5L Petrol / 1.4L Turbo Petrol / 1.5L CRDi</p>
+                    <p><strong>Mileage:</strong>Up to 21 kmpl</p>
+                    <p><strong>Transmission:</strong>6-speed Manual / 7-speed DCT</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/1056x594/n/hkt8dab_1650955.jpg?q=80" alt="Sonet">
+                <div>
+                <br><br>
+                <h3>KIA Sonet</h3>
+                <p class="center"> The KIA Sonet is a versatile compact SUV with a bold design and advanced tech features.</p>
+                <br><br><br>
+                <p><strong>Price:</strong> ₹ 7.79 - 14.89 Lakhs*</p>
+                <p><strong>Engine:</strong> 1.0L Turbo GDi / 1.2L MPI / 1.5L CRDi</p>
+                <p><strong>Mileage:</strong> Up to 18.4 kmpl</p>
+                <p><strong>Transmission:</strong> 6-speed Manual, iMT, 7-speed DCT</p>
+            </div>
+            </div>
+            <div class="car">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/EV6/8947/1654159762071/front-left-side-47.jpg?tr=w-456" alt="EV6">
+                <div>
+                <br>
+                <h3>KIA EV6</h3>
+                <p class="center">The KIA EV6 is an all-electric crossover with sleek design and exhilarating performance.</p>
+                <br><br><br>
+                <p><strong>Price:</strong> ₹ 60.95 - 65.95 Lakhs*</p>
+                <p><strong>Motor:</strong>Multi-electric motor setups available</p>
+                <p><strong>Range:</strong>Up to 300 miles per charge</p>
+                <p><strong>Transmission:</strong> Single-speed reduction gear</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

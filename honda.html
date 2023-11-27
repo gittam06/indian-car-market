@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+        }
+        body {
+            background: linear-gradient(to right, #8e0e00, #1f1c18);
+            color: #fff;
+        }
+
+        .header {
+            background: #ffffff;  
+            color: #000000;       
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 1rem;
+            
+        }
+
+        nav {
+            display: flex; 
+            background-color: #000000;
+            justify-content: right;
+        }
+
+        nav a {
+            padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+            border-radius: 4px;  /* Rounded corners for hover effect */
+            transition: background-color 0.3s ease;  /* Change transition to background-color */
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+            text-decoration: underline;
+
+        }
+
+        .description {
+            margin: 20px 0;
+            background-color: #fff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .car {
+            background-color: #fff;
+            color: #000000;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .car:hover {
+            transform: translateY(-10px);
+        }
+
+        .car img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p style="text-align: right;"><img src="honda.png" alt="Maruti Suzuki" width="100" style="float: left;"><span><h1>Honda</h1></span></p>
+            
+        </div>
+        <nav>
+            <a href="file:///C:/Users/gitta/OneDrive/Desktop/Work/Ex_11(3C)/index.html">Home</a>
+        </nav>
+
+        <div class="description">
+            <h2>About Honda</h2><br>
+            <p>Honda Motor Co., Ltd., founded in 1948, is a Japanese public multinational conglomerate best known as a manufacturer of automobiles, motorcycles, and power equipment. With its headquarters in Tokyo, Japan, Honda has been the world's largest motorcycle manufacturer since 1959. It also became the second-largest Japanese automobile manufacturer in 2001 and was the eighth-largest automobile manufacturer in the world in 2015.<br><br>Beyond vehicles, Honda's expansive portfolio includes producing garden equipment, marine engines, personal watercraft, power generators, and other products. Over time, Honda has ventured into robotics, aerospace, and the AI industry.<br><br>Soichiro Honda and Takeo Fujisawa founded the company, with the former playing the role of a visionary who was passionate about creating efficient and affordable mobility solutions. The brand's first product was a bicycle engine, which eventually led to the creation of their first motorcycle. Today, Honda vehicles and products are recognized for their efficiency, reliability, and innovative engineering.<br><br>In terms of automobiles, the Honda Civic, Accord, and CR-V are among the most popular and best-selling models in many parts of the world. Honda's emphasis on research and development has also pushed them towards creating hybrid electric vehicles, hydrogen fuel cell vehicles, and the exploration of other alternative fuel options.<br><br>Throughout its history, Honda has maintained a strong reputation for producing reliable and fuel-efficient vehicles and engines. Its products resonate with consumers looking for durability, making Honda a household name in many countries.</p>
+        </div>
+
+        <div class="cars">
+            <!-- Please replace the placeholder images with actual images of the cars -->
+            <div class="car">
+                <img src="https://english.cdn.zeenews.com/sites/default/files/2023/09/12/1279905-2023-honda-elevate-review-tracking-3.jpg" alt="Elevate">
+                <div>
+                <br><br>
+                <h3>Elevate</h3>
+                    <p class="center">The Honda Elevate merges premium SUV features with the practicality of a family vehicle, providing comfort and advanced technology within a bold design.</p>
+                    <br>
+                    <p><strong>Price:</strong> ₹ 11 - 16 Lakhs*</p>
+                    <p><strong>Engine:</strong> 1.5L Turbo</p>
+                    <p><strong>Mileage:</strong> 31 mpg combined</p>
+                    <p><strong>Safety:</strong>  Honda Sensing Suite</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://images.hindustantimes.com/auto/img/2023/03/02/1600x900/Honda_City_2023_Honda_City_hybrid_facelift_1677743764557_1677743785530_1677743785530.jpeg" alt="Honda City ">
+                <div>
+                    <br><br>
+                <h3>New Honda City</h3>
+                    <p class="center">The New Honda City is a stylish sedan known for its performance, offering luxury and advanced features with an aerodynamic silhouette.</p>
+                    <br><br>
+                    <p><strong>Price:</strong> ₹ 7.10 - 9.86 Lakhs*</p>
+                    <p><strong>Engine:</strong> 1.5L i-VTEC</p>
+                    <p><strong>Mileage:</strong> 31 mpg combined</p>
+                    <p><strong>Safety:</strong> M ABS, EBD, VSA</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://media.zigcdn.com/media/content/2020/Oct/zw-honda-amaze-special-edition-1.jpg" alt="Amaze">
+                <div>
+                <h3>Amaze</h3>
+                <p class="center">The Honda Amaze is a versatile and efficient compact sedan, perfect for city driving with a spacious cabin and modern connectivity options.</p>
+                <br><br>
+                <p><strong>Price:</strong> ₹ 11.49 - ₹ 15.97 Lakhs*</p>
+                <p><strong>Engine:</strong> 1.2L i-VTEC / 1.5L i-DTEC</p>
+                <p><strong>Mileage:</strong> Up to 33 mpg combined (Petrol)</p>
+                <p><strong>Safety:</strong> Dual Airbags, ABS with EBD</p>
+            </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/664x374/cw/ec/25833/Honda-WRV-Right-Front-Three-Quarter-92960.jpg?v=201711021421&q=80" alt="Honda WR-V">
+                <div>
+                <br><br>
+                <h3>Honda WR-V</h3>
+                <p class="center">The Honda WR-V offers the practicality of a hatchback with the toughness of an SUV, equipped for both city and trail with a range of convenient features.</p>
+                <br><br>
+                <p><strong>Price:</strong> ₹ 8 Lakh*</p>
+                <p><strong>Engine:</strong> 1.2L i-VTEC / 1.5L i-DTEC</p>
+                <p><strong>Mileage:</strong> Up to 31 mpg combined (Petrol)</p>
+                <p><strong>Safety:</strong> ABS, EBD, Airbags</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

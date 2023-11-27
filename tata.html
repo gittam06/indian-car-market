@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TATA Motors Cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+        }
+        body {
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            color: #fff;
+        }
+
+        .header {
+            background: #ffffff;  
+            color: #000000;       
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 1rem;
+            
+        }
+
+        nav {
+            display: flex; 
+            background-color: #000000;
+            justify-content: right;
+        }
+
+        nav a {
+            padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+            border-radius: 4px;  /* Rounded corners for hover effect */
+            transition: background-color 0.3s ease;  /* Change transition to background-color */
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+            text-decoration: underline;
+
+        }
+
+        .description {
+            margin: 20px 0;
+            background-color: #fff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .car {
+            background-color: #fff;
+            color: #000000;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .car:hover {
+            transform: translateY(-10px);
+        }
+
+        .car img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p style="text-align: right;"><img src="tata.png" alt="TATA Motors" width="150" style="float: left;"><span><h1>&nbsp;TATA Motors</h1></span></p>
+            
+        </div>
+        <nav>
+            <a href="file:///C:/Users/gitta/OneDrive/Desktop/Work/Ex_11(3C)/index.html">Home</a>
+        </nav>
+
+        <div class="description">
+            <h2>About TATA Motors</h2><br>
+            <p>Founded in 1945, TATA Motors is a part of the larger TATA Group, an Indian multinational conglomerate. It is one of India's leading automobile manufacturers and among the top in the commercial vehicle segment globally. With a strong presence across India and in international markets, TATA Motors has a diverse portfolio that includes a range of cars, sports utility vehicles, trucks, buses, and defense vehicles.<br><br>TATA Motors is committed to innovation that meets the needs of its customers. It has pioneered the development of fuel-efficient, environmentally friendly vehicles and is the company behind the TATA Nano, once dubbed the world's cheapest car. Additionally, TATA Motors acquired the prestigious brands Jaguar and Land Rover in 2008, further expanding its position in the global automotive industry.<br><br>The company has always been at the forefront of the Indian automotive market with a reputation for strength and durability. TATA Motors has also focused on sustainable and environmentally friendly manufacturing processes and contributes to the global shift towards cleaner, greener vehicles with its investments in electric vehicle technology.<br><br>With an eye towards the future, TATA Motors continues to innovate and adapt to the evolving needs of the market and its customers, committing to ‘Connecting aspirations’ as their philosophy, with a focus on quality, customer satisfaction, and innovation.</p>
+        </div>
+
+        <div class="cars">
+            <!-- Please replace the placeholder images with actual images of the cars -->
+            <div class="car">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Altroz/10707/1690032362798/front-left-side-47.jpg" alt="Altroz">
+                <div>
+                <br>
+                <h3>TATA Altroz</h3>
+                    <p class="center">The Tata Altroz is a stylish and modern premium hatchback with a 5-star Global NCAP safety rating.</p>
+                    <br><br>
+                    <p><strong>Price:</strong> ₹ 6.60 - 10.74 Lakh*</p>
+                    <p><strong>Engine:</strong> 1.2L Revotron Petrol / 1.5L Turbocharged Revotorq Diesel</p>
+                    <p><strong>Mileage:</strong> Up to 19.05 kmpl (Petrol) / 25.11 kmpl (Diesel)</p>
+                    <p><strong>Transmission:</strong> 5-Speed Manual</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://d2m3nfprmhqjvd.cloudfront.net/blog/20220228142909/ezgif.com-gif-maker-2021-11-08T180441.440.jpg" alt="Tata Tigor">
+                <div>
+                    <br><br>
+                <h3>TATA Tigor</h3>
+                    <p class="center">The Tata Tigor is a compact and economical sedan known for its affordability and efficient use of space.</p>
+                    <br><br><br>
+                    <p><strong>Price:</strong> ₹ 6.30 - 8.95 Lakhs*</p>
+                    <p><strong>Engine:</strong> 1.2L Revotron Petrol</p>
+                    <p><strong>Mileage:</strong> Up to 20.3 kmpl</p>
+                    <p><strong>Transmission:</strong> 5-Speed Manual / AMT</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20201007020644_harrier-dark.jpg&w=700&q=90&c=1" alt="TATA Harrier">
+                <div>
+                <h3>TATA Harrier</h3>
+                <p class="center"> The Tata Harrier stands out with its bold design and robust performance, offering an exceptional SUV experience.</p>
+                <br><br><br>
+                <p><strong>Price:</strong> ₹ 15.49 - 26.44 Lakhs*</p>
+                <p><strong>Engine:</strong> 2.0L Kryotec Diesel</p>
+                <p><strong>Mileage:</strong> Up to 16.35 kmpl</p>
+                <p><strong>Transmission:</strong> 6-Speed Manual / Automatic</p>
+            </div>
+            </div>
+            <div class="car">
+                <img src="https://cars.tatamotors.com/images/safari/iconic-design-2023.jpg" alt="TATA Safari">
+                <div>
+                <br><br>
+                <h3>TATA Safari</h3>
+                <p class="center">The Tata Safari is a legendary SUV, offering a perfect blend of luxury, performance, and off-road capability.</p>
+                <br><br><br>
+                <p><strong>Price:</strong> ₹ 16.19 - 27.34 Lakhs*</p>
+                <p><strong>Engine:</strong> 2.0L Kryotec Diesel</p>
+                <p><strong>Mileage:</strong> Up to 14.08 kmpl</p>
+                <p><strong>Transmission:</strong> 6-Speed Manual / Automatic</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

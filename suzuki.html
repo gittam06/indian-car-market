@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maruti Suzuki Cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+        }
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+
+        .header {
+            background: #ffffff;  
+            color: #000000;       
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 1rem;
+            
+        }
+
+        nav {
+            display: flex; 
+            background-color: #000000;
+            justify-content: right;
+        }
+
+        nav a {
+            padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+            border-radius: 4px;  /* Rounded corners for hover effect */
+            transition: background-color 0.3s ease;  /* Change transition to background-color */
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+            text-decoration: underline;
+
+        }
+
+        .description {
+            margin: 20px 0;
+            background-color: #fff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .car {
+            background-color: #fff;
+            color: #000000;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .car:hover {
+            transform: translateY(-10px);
+        }
+
+        .car img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p style="text-align: right;"><img src="suzuki.png" alt="Maruti Suzuki" width="100" style="float: left;"><span><h1>Maruti Suzuki</h1></span></p>
+            
+        </div>
+        <nav>
+            <a href="file:///C:/Users/gitta/OneDrive/Desktop/Work/Ex_11(3C)/index.html">Home</a>
+        </nav>
+
+        <div class="description">
+            <h2>About Maruti Suzuki</h2><br>
+            <p>Founded in 1981, Maruti Suzuki India Limited is one of India's pioneering automobile manufacturing companies. A subsidiary of the Suzuki Motor Corporation of Japan, Maruti Suzuki has consistently brought innovations to the Indian car market. They have achieved numerous milestones and are recognized for their affordable cars, low maintenance, and widespread service network. With a mission to bring the joy of personal mobility to every household, Maruti Suzuki cars like Alto, Swift, Baleno, and Ciaz have become household names in India.</p>
+        </div>
+
+        <div class="cars">
+            <!-- Please replace the placeholder images with actual images of the cars -->
+            <div class="car">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Maruti/Alto-800/10327/1687348176706/front-left-side-47.jpg" alt="Alto">
+                <div>
+                <h3>Alto</h3>
+                    <p class="center">A compact hatchback known for its fuel efficiency and affordability, perfect for city driving.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Price:</strong> ₹ 3,99,000</p>
+                    <p><strong>Engine:</strong> 796 cc</p>
+                    <p><strong>Mileage:</strong> 22.05 kmpl</p>
+                    <p><strong>Transmission:</strong> Manual</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/swift-exterior-right-front-three-quarter-63.jpeg?q=80" alt="Swift">
+                <div>
+                    <br><br>
+                <h3>Swift</h3>
+                    <p class="center">A sporty hatchback loved for its stylish design and thrilling performance.</p>
+                    <br><br>
+                    <p><strong>Price:</strong> ₹ 5,99,450</p>
+                    <p><strong>Engine:</strong> 1197 cc</p>
+                    <p><strong>Mileage:</strong> 21.21 kmpl</p>
+                    <p><strong>Transmission:</strong> Manual/Automatic</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/10497/1697697558001/front-left-side-47.jpg" alt="Baleno">
+                <div>
+                <h3>Baleno</h3>
+                <p class="center">An elegant premium hatchback offering a blend of performance and sophistication.</p>
+                <br><br>
+                <p><strong>Price:</strong> ₹ 7,90,000</p>
+                <p><strong>Engine:</strong> 1197 cc</p>
+                <p><strong>Mileage:</strong> 21.01 kmpl</p>
+                <p><strong>Transmission:</strong> Manual/Automatic</p>
+            </div>
+            </div>
+            <div class="car">
+                <img src="https://www.v3cars.com/media/model-imgs/1676534511-ciaz-2023.webp" alt="Ciaz">
+                <div>
+                <br>
+                <h3>Ciaz</h3>
+                <p class="center">A premium sedan with a spacious interior, offering a luxurious driving experience.</p>
+                <br><br>
+                <p><strong>Price:</strong> ₹ 9,30,00</p>
+                <p><strong>Engine:</strong> 1462 cc</p>
+                <p><strong>Mileage:</strong> 20.04 kmpl</p>
+                <p><strong>Transmission:</strong> Manual/Automatic</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

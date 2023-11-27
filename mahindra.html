@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra & Mahindra Cars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+        }
+        body {
+            background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+            color: #fff;
+        }
+
+        .header {
+            background: #ffffff;  
+            color: #000000;       
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 1rem;
+            
+        }
+
+        nav {
+            display: flex; 
+            background-color: #000000;
+            justify-content: right;
+        }
+
+        nav a {
+            padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+            border-radius: 4px;  /* Rounded corners for hover effect */
+            transition: background-color 0.3s ease;  /* Change transition to background-color */
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+            text-decoration: underline;
+
+        }
+
+        .description {
+            margin: 20px 0;
+            background-color: #fff;
+            color: #000000;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .cars {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .car {
+            background-color: #fff;
+            color: #000000;
+            border-radius: 10px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+        }
+
+        .car img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .car h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .car:hover {
+            transform: translateY(-10px);
+        }
+
+        .car img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p style="text-align: right;"><img src="mahindra.png" alt="Mahindra & Mahindra" width="200" style="float: left;"><span><h1>&nbsp;Mahindra & Mahindra</h1></span></p>
+            
+        </div>
+        <nav>
+            <a href="file:///C:/Users/gitta/OneDrive/Desktop/Work/Ex_11(3C)/index.html">Home</a>
+        </nav>
+
+        <div class="description">
+            <h2>About Mahindra & Mahindra</h2><br>
+            <p>Founded in 1945, Mahindra & Mahindra is a major Indian multinational conglomerate with a prominent presence in the global automotive market. As a leading manufacturer of utility vehicles and tractors in India, Mahindra has built a reputation for ruggedness and reliability. Headquartered in Mumbai, Mahindra has diversified interests across various industries including automotive, agriculture, finance, hospitality, aerospace, and real estate.<br><br>Mahindra’s automotive sector is renowned for its range of SUVs, saloon cars, vans, commercial vehicles, and two-wheelers. Among its notable contributions to the automotive industry are its innovations in electric vehicles through its subsidiary, Mahindra Electric.<br><br>SThe company stands at the forefront of the Indian automobile market, known for models like the Scorpio, Bolero, XUV500, and Thar, which are popular for their durability and performance in diverse terrains. Mahindra’s tractor division, Mahindra & Mahindra Farm Equipment, is one of the largest in the world.<br><br>IWith a focus on sustainability and innovation, Mahindra continues to explore new frontiers in mobility and is committed to the ‘Rise’ philosophy that emphasizes socially and environmentally responsible business practices.</p>
+        </div>
+
+        <div class="cars">
+            <!-- Please replace the placeholder images with actual images of the cars -->
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/1056x594/n/rskpp0b_1638613.jpg?q=80" alt="Thar">
+                <div>
+                <br>
+                <h3>Mahindra Thar</h3>
+                    <p class="center">A rugged 4x4 designed for off-road adventure and lifestyle driving.</p>
+                    <br><br>
+                    <p><strong>Price:</strong> ₹ 10.98 - 16.94 Lakh*</p>
+                    <p><strong>Engine:</strong> 2.2L mHawk Diesel / 2.0L mStallion TGDi Petrol</p>
+                    <p><strong>Mileage:</strong> Approx. 15 kmpl (Diesel)</p>
+                    <p><strong>Transmission:</strong> 6-speed Manual / Automatic</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/0X0/n/cw/ec/128413/scorpio-exterior-right-front-three-quarter-47.jpeg?isig=0&q=80" alt="Scorpio">
+                <div>
+                    <br><br>
+                <h3>Mahindra Scorpio</h3>
+                    <p class="center">A muscular SUV known for its robust build and all-terrain capability.</p>
+                    <br><br>
+                    <p><strong>Price:</strong> ₹ 13.26 - 24.54 Lakh*</p>
+                    <p><strong>Engine:</strong> 2.2L mHawk Diesel</p>
+                    <p><strong>Mileage:</strong> Approx. 16 kmpl/p>
+                    <p><strong>Transmission:</strong> M6-speed Manual / Automatic</p>
+                </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd-ct.aeplcdn.com/1200x900/n/cw/ec/131183/bolero-right-front-three-quarter.jpeg?isig=0&q=80" alt="Bolero">
+                <div>
+                <h3>Mahindra Bolero</h3>
+                <p class="center">A sturdy and reliable utility vehicle famed for its toughness in rural terrains.</p>
+                <br>
+                <p><strong>Price:</strong> ₹ 9.80 - 10.81 Lakh</p>
+                <p><strong>Engine:</strong> 1.5L mHawk D70 Diesel</p>
+                <p><strong>Mileage:</strong> Approx. 16 kmpl</p>
+                <p><strong>Transmission:</strong> 5-speed Manual</p>
+            </div>
+            </div>
+            <div class="car">
+                <img src="https://imgd.aeplcdn.com/664x374/n/cw/ec/42355/xuv700-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80" alt="XUV700">
+                <div>
+                <br><br>
+                <h3>Mahindra XUV700</h3>
+                <p class="center">A sophisticated and feature-rich SUV offering a blend of luxury, performance, and technology.</p>
+                <br>
+                <p><strong>Price:</strong> ₹ 14.03 - 26.57 Lakh*</p>
+                <p><strong>Engine:</strong> 2.2L mHawk Diesel / 2.0L mStallion TGDi Petrol</p>
+                <p><strong>Mileage:</strong> 2Approx. 14 kmpl (Diesel)</p>
+                <p><strong>Transmission:</strong> 6-speed Manual / Automatic</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+/* Reset some default margins and paddings */
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Arial', sans-serif;  /* Added 'Segoe UI' here */
+}
+
+body {
+    background: linear-gradient(45deg, #e66465, #9198e5);
+    color: #fff;
+}
+
+header {
+    background: #ffffff;  
+    color: #000000;       
+    padding: 1rem;
+}
+
+.header-container {
+    width: 90%;  /* Limit the width */
+    margin: 0 auto;  /* Center the container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* Vertically center content */
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex; 
+    background-color: #000000;
+    justify-content: right;
+}
+
+nav a {
+    padding: 0.5rem 1rem;  /* Add some padding for better clickability */
+    border-radius: 4px;  /* Rounded corners for hover effect */
+    transition: background-color 0.3s ease;  /* Change transition to background-color */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.05);  /* Subtle hover effect */
+    text-decoration: underline;
+
+}
+
+main {
+    padding: 2rem 1rem;  /* More padding for the main content */
+}
+
+.more-link {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #000;  /* You can adjust the color if needed */
+    margin-top: 1rem;
+}
+
+.link a:hover {
+    text-decoration: underline;  /* adds underline to the link */
+    color: blue;   /* changes link color to dark blue on hover */
+}
+
+.brand-link {
+    display: block;
+    text-decoration: none; 
+    color: #000;  /* You can adjust the color if needed */
+    margin-top: 1rem;
+}
+
+.element-container {
+    background-color: #f2f2f2;  /* Different color for the container */
+    padding: 2rem;              /* Spacing inside the container */
+    border-radius: 8px;         /* Rounded corners for aesthetics */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    width: 100%;                 /* Take up half the width of the parent */
+    margin-left: 0;             /* Align to the left */
+    color: #000;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+#university-logo {
+  /* Adjust as needed */
+    position: absolute; /* To keep the logo on the far left */
+    left: 10px; /* Space from the left */
+}
+
+.university-details {
+    width: 100%; /* To take full width and push the logo to the far left */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* To center the content */
+    text-align: center; /* To align the text to the center */
+}
+
+.university-details p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Ensure content is centered */
+}
+
+.project-details small {
+    margin-left: 8px;
+    font-size: 0.7rem;
+}
+
+.brand-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;            /* Remove default padding */
+}
+
+.brand-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;   /* Space between each brand item */
+}
+
+.brand-logo {
+    margin-right: 1rem;    /* Space between the logo and brand name/description */
+}
+
+/*for about.html*/
+#about-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about-section h2 {
+    color: #dd357d; /* Picked from the logo color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about-section p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#about-section a {
+    display: inline-block;
+    background-color: #dd357d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#about-section a:hover {
+    background-color: #c02c67;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    border-top: 1px solid #ddd;
+}
+
